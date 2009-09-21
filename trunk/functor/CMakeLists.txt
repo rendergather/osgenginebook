@@ -1,0 +1,16 @@
+# Copyright (C) 2009 by Wang Rui <wangray84 at gmail dot com>
+# OpenSceneGraph Engine Book - Design and Implementation
+# How to create a functor to collect geometry information
+
+SET( EXAMPLE_NAME functor )
+
+SET( EXAMPLE_FILES
+    functor.cpp
+)
+
+ADD_EXECUTABLE( ${EXAMPLE_NAME} ${EXAMPLE_FILES} )
+SET_TARGET_PROPERTIES( ${EXAMPLE_NAME} PROPERTIES DEBUG_POSTFIX "${CMAKE_DEBUG_POSTFIX}" )
+
+INCLUDE_FOR_PROJECT( ${EXAMPLE_NAME} OPENTHREADS OSG OSGDB OSGUTIL OSGVIEWER )
+LINK_PROJECT( ${EXAMPLE_NAME} OPENTHREADS OSG OSGDB OSGUTIL OSGVIEWER )
+INSTALL_PROJECT( ${EXAMPLE_NAME} )
