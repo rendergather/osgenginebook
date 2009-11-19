@@ -28,8 +28,12 @@ int main( int argc, char** argv )
     char buffer[2] = "";
     for ( int i=0; i<10; ++i )
     {
+#ifdef _WIN32
         _itoa_s( i, buffer, 2, 10 );
-        std::string file = buffer;
+#else
+		gcvt( (double)i, 1, buffer );
+#endif
+		std::string file = buffer;
         imageSequence->addImage( osgDB::readImageFile(file+".jpg") );
     }
     
