@@ -40,6 +40,8 @@ ENDIF( WIN32 )
 
 INCLUDE( CustomModules )
 
+OPTION( BUILD_EXAMPLE_2_9_4 "Set off to ignore some examples" ON )
+
 ADD_SUBDIRECTORY( simplest )
 
 ADD_SUBDIRECTORY( refptr )
@@ -69,18 +71,24 @@ ADD_SUBDIRECTORY( viewers )
 
 ADD_SUBDIRECTORY( keyboard )
 ADD_SUBDIRECTORY( draggers )
-ADD_SUBDIRECTORY( gui )
+IF( WIN32 )
+    ADD_SUBDIRECTORY( gui )
+ENDIF( WIN32 )
 
 ADD_SUBDIRECTORY( keyframe )
 ADD_SUBDIRECTORY( path )
 ADD_SUBDIRECTORY( multichannels )
 ADD_SUBDIRECTORY( skeleton )
-ADD_SUBDIRECTORY( morph )
+IF( BUILD_EXAMPLE_2_9_4 )
+    ADD_SUBDIRECTORY( morph )
+ENDIF( BUILD_EXAMPLE_2_9_4 )
 ADD_SUBDIRECTORY( fade )
 ADD_SUBDIRECTORY( texturemovie )
 
 ADD_SUBDIRECTORY( simpleplugin )
-ADD_SUBDIRECTORY( progress )
+IF( WIN32 )
+    ADD_SUBDIRECTORY( progress )
+ENDIF( WIN32 )
 
 ADD_SUBDIRECTORY( pagedlod )
 
