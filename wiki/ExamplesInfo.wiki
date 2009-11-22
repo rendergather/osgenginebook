@@ -2,7 +2,7 @@
 = 示例程序说明 =
 
 本书附带的所有示例程序源代码均可以通过版本控制工具SVN获取。安装了SVN的用户可以输入下面的指令，以签出最新的代码：
-{{{svn checkout http://osgenginebook.googlecode.com/svn/trunk}}}
+  {{{svn checkout http://osgenginebook.googlecode.com/svn/trunk}}}
 
 Windows用户也可以在[http://osgenginebook.googlecode.com/files/Examples.rar 这里]下载完整版本的WinRAR压缩包。
 
