@@ -2,7 +2,7 @@
 # OpenSceneGraph Engine Book - Design and Implementation
 # How to create 1D/2D/Cubemap textures
 
-SET( EXAMPLE_NAME ch6_textures )
+SET( EXAMPLE_NAME textures )
 
 SET( EXAMPLE_FILES
     textures.cpp
