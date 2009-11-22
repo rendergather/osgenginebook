@@ -23,16 +23,16 @@ SET( DATA_FILES
     ${DATA_PATH}/osg64.png
     ${DATA_PATH}/osg128.png
     ${DATA_PATH}/osg256.png
-    ${DATA_PATH}/0.jpg
-    ${DATA_PATH}/1.jpg
-    ${DATA_PATH}/2.jpg
-    ${DATA_PATH}/3.jpg
-    ${DATA_PATH}/4.jpg
-    ${DATA_PATH}/5.jpg
-    ${DATA_PATH}/6.jpg
-    ${DATA_PATH}/7.jpg
-    ${DATA_PATH}/8.jpg
-    ${DATA_PATH}/9.jpg
+    ${DATA_PATH}/0.JPG
+    ${DATA_PATH}/1.JPG
+    ${DATA_PATH}/2.JPG
+    ${DATA_PATH}/3.JPG
+    ${DATA_PATH}/4.JPG
+    ${DATA_PATH}/5.JPG
+    ${DATA_PATH}/6.JPG
+    ${DATA_PATH}/7.JPG
+    ${DATA_PATH}/8.JPG
+    ${DATA_PATH}/9.JPG
 )
 
 INSTALL(FILES ${DATA_FILES} DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)

@@ -93,5 +93,6 @@ ENDIF( WIN32 )
 ADD_SUBDIRECTORY( pagedlod )
 
 ADD_SUBDIRECTORY( thread )
+ADD_SUBDIRECTORY( billboard )
 
 ADD_SUBDIRECTORY( data )

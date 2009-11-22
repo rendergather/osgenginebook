@@ -93,7 +93,5 @@ int main( int argc, char** argv )
     
     FindGeometryVisitor fgv;
     if ( model ) model->accept( fgv );
-    
-    system( "pause" );
     return 0;
 }
