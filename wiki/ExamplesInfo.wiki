@@ -26,3 +26,5 @@ Windows用户也可以在[http://osgenginebook.googlecode.com/files/Examples.rar
   * CMake 2.6.4 for Windows的下载地址为：http://www.cmake.org/files/v2.6/cmake-2.6.4-win32-x86.exe
 
   * CMake 2.6.4 for Linux的下载地址为：http://www.cmake.org/files/v2.6/cmake-2.6.4-Linux-i386.sh
+
+如果您在编译和运行例子程序的过程中发现问题，或者您在更多的系统平台和编译器环境中成功地运行了这些程序，欢迎您向作者提出，帮助我们改进和更新代码。
