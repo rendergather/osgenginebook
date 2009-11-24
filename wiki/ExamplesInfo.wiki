@@ -3,7 +3,6 @@
 
 本书附带的所有示例程序源代码均可以通过版本控制工具SVN获取。安装了SVN的用户可以输入下面的指令，以签出最新的代码：
   {{{svn checkout http://osgenginebook.googlecode.com/svn/trunk}}}
-
 Windows用户也可以在[http://osgenginebook.googlecode.com/files/Examples.rar 这里]下载完整版本的WinRAR压缩包。
 
 示例程序的运行要求使用市面上常见的PC计算机和3D显示卡，并尽量更新您的显示驱动程序到最新的版本；系统和软件方面的要求和注意事项如下所示：
@@ -14,7 +13,6 @@ Windows用户也可以在[http://osgenginebook.googlecode.com/files/Examples.rar
 
   * morph例子不能工作于OpenSceneGraph 2.9.4以下的环境，使用较低OSG版本的用户可以通过额外的CMake选项BUILD_EXAMPLE_2_9_4阻止它的生成，即：
     {{{# cmake -DBUILD_EXAMPLE_2_9_4=OFF}}}
-
   * gui例子和progress例子不能在Linux操作系统平台下运行。
 
   * OpenSceneGraph 2.9.5的下载地址为：http://www.openscenegraph.org/downloads/developer_releases/OpenSceneGraph-2.9.5.zip
@@ -33,7 +31,6 @@ Windows用户也可以在[http://osgenginebook.googlecode.com/files/Examples.rar
 
 You may use SVN to check out the latest examples source code:
   {{{svn checkout http://osgenginebook.googlecode.com/svn/trunk}}}
-
 You may also download the WinRAR archive [http://osgenginebook.googlecode.com/files/Examples.rar here].
 
 You will need a personal computer and a 3D graphics card to run examples. The latest version of the graphics driver is also required to get best performance.
@@ -46,7 +43,6 @@ Notes and known issues:
 
   * The morph example is unable to work under versions lower than OpenSceneGraph 2.9.4. You will need add a definiation BUILD_EXAMPLE_2_9_4 to the cmake command line:
     {{{# cmake -DBUILD_EXAMPLE_2_9_4=OFF}}}
-
   * The gui and progress examples are unable to work under Linux at present.
 
   * Download OpenSceneGraph 2.9.5 at: http://www.openscenegraph.org/downloads/developer_releases/OpenSceneGraph-2.9.5.zip
