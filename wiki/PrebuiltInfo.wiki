@@ -1,5 +1,5 @@
 #labels Phase-Implementation
-== 预编译包说明 ==
+= 预编译包说明 =
 
 本预编译包的编译环境如下：
 
