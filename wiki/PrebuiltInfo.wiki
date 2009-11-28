@@ -7,7 +7,7 @@ Windows XP SP3
 
 Visual Studio 9.0.30729.1 (2008 SP1)
 
-OpenSceneGraph-2.8.2
+OpenSceneGraph 2.8.2
 
 *如果您的操作系统或者开发环境不符合上述的要求，那么您将无法正常运行本预编译包的内容！*
 
